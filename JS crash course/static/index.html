@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="C:\Users\Андрюха\Desktop\JS crash course\static\css\style.css">
+    <title>JavaScript on steroids</title>
+</head>
+<body>
+    <div class="container-1">
+        <h2>Challenge 1: Your Age In Days</h2>
+        <div class="flex-box-container-1">
+            <div>
+                <button class="btn btn-primary" onclick='ageInDays()'>Click me</button>
+            </div>
+            <div>
+                <button class="btn btn-danger" onclick="reset()">Reset</button>
+            </div>
+        </div>    
+        <div class="flex-box-container-1">
+            <div id="flex-box-result"></div>
+        </div>    
+          
+    </div>
+
+    <div class="container-2"> 
+        <h2>Challenge 2: Cat Generator</h2>
+        <button class="btn btn-success" id="cat-gen-button" onclick="generateCat()">Generate Cat</button>
+        <div class="flex-box-container-2" id="flex-cat-gen"></div>
+    </div>
+
+    <div class="container-3">
+        <h2>Challenge 3: Rock-Paper-Scissors</h2>
+        <div class="flex-box-rps" id="flex-box-rps-div">
+            <img id="rock" src="https://cdn.substack.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F3bdb2575-9a92-42f8-8472-bb78c7bd118a_720x405.jpeg" height=150 width=150 alt="" onclick="rpsgame(this)">
+            <img id="paper" src=https://i.pinimg.com/736x/4a/72/05/4a7205b6efa7828add8041dd28296bc7.jpg height=150 width=150 alt="" onclick="rpsgame(this)">
+            <img id="scissors" src="https://m.media-amazon.com/images/I/61TWkUIgSQL._AC_SS450_.jpg" height=150 width=150 alt="" onclick="rpsgame(this)">
+        </div>
+    </div>
+
+
+    <script src="C:\Users\Андрюха\Desktop\JS crash course\static\js\script.js"></script>    
+</body>
+</html>
